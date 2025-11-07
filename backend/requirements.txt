@@ -1,0 +1,16 @@
+# Working backend requirements
+fastapi
+uvicorn
+motor
+pymongo
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+pydantic
+pydantic-settings
+email-validator
+torch
+transformers
+datasets
+tensorflow

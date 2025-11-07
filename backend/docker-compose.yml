@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:7.0
+    container_name: ailearner_mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_DATABASE: ailearner
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - ailearner_network
+
+  api:
+    build: .
+    container_name: ailearner_api
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URL=mongodb://admin:password@mongodb:27017/ailearner?authSource=admin
+      - DATABASE_NAME=ailearner
+    depends_on:
+      - mongodb
+    volumes:
+      - .:/app
+    networks:
+      - ailearner_network
+
+volumes:
+  mongodb_data:
+
+networks:
+  ailearner_network:
+    driver: bridge

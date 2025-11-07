@@ -1,0 +1,38 @@
+[
+  {
+    "skill": "data-structures",
+    "topic": "arrays",
+    "difficulty": "easy",
+    "question": "What is an array?",
+    "options": ["A collection of elements", "A single variable", "A function", "A loop"],
+    "correct_answer": "A collection of elements",
+    "explanation": "An array is a data structure that stores multiple elements of the same type."
+  },
+  {
+    "skill": "data-structures",
+    "topic": "linked-lists",
+    "difficulty": "medium",
+    "question": "What is the main advantage of linked lists over arrays?",
+    "options": ["Dynamic size", "Random access", "Less memory usage", "Faster sorting"],
+    "correct_answer": "Dynamic size",
+    "explanation": "Linked lists can grow or shrink during runtime, unlike arrays with fixed size."
+  },
+  {
+    "skill": "algorithms",
+    "topic": "sorting",
+    "difficulty": "hard",
+    "question": "What is the time complexity of merge sort?",
+    "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+    "correct_answer": "O(n log n)",
+    "explanation": "Merge sort has a consistent O(n log n) time complexity in all cases."
+  },
+  {
+    "skill": "programming",
+    "topic": "functions",
+    "difficulty": "easy",
+    "question": "What is a function in programming?",
+    "options": ["A reusable block of code", "A variable", "A data type", "A loop"],
+    "correct_answer": "A reusable block of code",
+    "explanation": "Functions are blocks of code that can be called multiple times to perform specific tasks."
+  }
+]
