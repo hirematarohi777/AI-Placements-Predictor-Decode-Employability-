@@ -1,0 +1,42 @@
+[
+  {
+    "input": "Generate 1 multiple-choice question for algorithms at easy difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"What is the time complexity of accessing an element in an array by index?\", \"options\": [\"O(1)\", \"O(log n)\", \"O(n)\", \"O(n^2)\"], \"correct_answer\": \"O(1)\", \"explanation\": \"Array access by index is constant time as it directly computes the memory location.\", \"topic\": \"data structures\"}]"
+  },
+  {
+    "input": "Generate 1 multiple-choice question for data structures at medium difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"Which data structure uses LIFO (Last In, First Out) principle?\", \"options\": [\"Queue\", \"Stack\", \"Linked List\", \"Tree\"], \"correct_answer\": \"Stack\", \"explanation\": \"A stack follows LIFO principle where the last element added is the first to be removed.\", \"topic\": \"data structures\"}]"
+  },
+  {
+    "input": "Generate 1 multiple-choice question for programming at hard difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"What is the output of the following code: def func(x): return x*2 if x > 0 else x/2; print(func(-4))\", \"options\": [\"-8\", \"-2\", \"2\", \"Error\"], \"correct_answer\": \"-2\", \"explanation\": \"Since x=-4 is negative, it executes x/2 = -4/2 = -2.\", \"topic\": \"programming\"}]"
+  },
+  {
+    "input": "Generate 1 multiple-choice question for algorithms at easy difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"Which algorithm is used to find the shortest path in a graph with non-negative weights?\", \"options\": [\"Dijkstra's\", \"Bellman-Ford\", \"Floyd-Warshall\", \"Prim's\"], \"correct_answer\": \"Dijkstra's\", \"explanation\": \"Dijkstra's algorithm finds the shortest path from a source to all other nodes in a graph with non-negative edge weights.\", \"topic\": \"graph algorithms\"}]"
+  },
+  {
+    "input": "Generate 1 multiple-choice question for data structures at medium difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"What is the worst-case time complexity of quicksort?\", \"options\": [\"O(n log n)\", \"O(n^2)\", \"O(n)\", \"O(log n)\"], \"correct_answer\": \"O(n^2)\", \"explanation\": \"In the worst case, quicksort can degrade to O(n^2) when the pivot is always the smallest or largest element.\", \"topic\": \"sorting algorithms\"}]"
+  },
+  {
+    "input": "Generate 1 multiple-choice question for programming at hard difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"In Python, what does the 'yield' keyword do in a function?\", \"options\": [\"Returns a value and ends the function\", \"Creates a generator\", \"Imports a module\", \"Defines a class\"], \"correct_answer\": \"Creates a generator\", \"explanation\": \"The yield keyword turns a function into a generator, allowing it to return values one at a time.\", \"topic\": \"python programming\"}]"
+  },
+  {
+    "input": "Generate 1 multiple-choice question for algorithms at easy difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"What does BFS stand for in graph traversal?\", \"options\": [\"Best First Search\", \"Breadth First Search\", \"Binary First Search\", \"Basic First Search\"], \"correct_answer\": \"Breadth First Search\", \"explanation\": \"BFS stands for Breadth First Search, which explores all neighbors at the current depth before moving to the next level.\", \"topic\": \"graph traversal\"}]"
+  },
+  {
+    "input": "Generate 1 multiple-choice question for data structures at medium difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"Which of the following is NOT a balanced binary search tree?\", \"options\": [\"AVL Tree\", \"Red-Black Tree\", \"B-Tree\", \"Binary Heap\"], \"correct_answer\": \"Binary Heap\", \"explanation\": \"Binary Heap is not a balanced BST; it's a complete binary tree used for priority queues.\", \"topic\": \"trees\"}]"
+  },
+  {
+    "input": "Generate 1 multiple-choice question for programming at hard difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"What is the purpose of the __init__ method in Python classes?\", \"options\": [\"To delete an object\", \"To initialize object attributes\", \"To call parent class methods\", \"To create a new instance\"], \"correct_answer\": \"To initialize object attributes\", \"explanation\": \"The __init__ method is called when an object is created and is used to initialize the object's attributes.\", \"topic\": \"object-oriented programming\"}]"
+  },
+  {
+    "input": "Generate 1 multiple-choice question for algorithms at easy difficulty for college placement. Return JSON array with question, options, correct_answer, explanation, topic.",
+    "output": "[{\"question\": \"Which sorting algorithm has the best average case time complexity?\", \"options\": [\"Bubble Sort\", \"Insertion Sort\", \"Merge Sort\", \"Selection Sort\"], \"correct_answer\": \"Merge Sort\", \"explanation\": \"Merge Sort has O(n log n) time complexity in all cases, making it efficient for large datasets.\", \"topic\": \"sorting algorithms\"}]"
+  }
+]
